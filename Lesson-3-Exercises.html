@@ -1,0 +1,235 @@
+<p>Use CSS to recreate buttons from famous websites (hovers, transitions and shadows)</p>
+
+<style>
+  :root {
+    --transition-time: var(--transition-time);
+  }
+</style>
+
+<p>3a. Uber</p>
+<style>
+  .Uber-Button {
+    background-color: Black;
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    width: 130px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: opacity var(--transition-time);
+  }
+
+  .Uber-Button:hover{
+    opacity: 0.8;
+  }
+
+  .Uber-Button:active{
+    opacity: 0.6;
+  }
+</style>
+
+<button class="Uber-Button">Request now</button>
+
+
+<p>3b. Amazon</p>
+<style>
+  .Amazon-Button {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    font-weight: lighter;
+    height: 30px;
+    width: 160px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color var(--transition-time), opacity var(--transition-time);
+  }
+
+  .Amazon-Button:hover{
+    background-color: rgb(238, 201, 18);
+  }
+
+  .Amazon-Button:active{
+    opacity: 0.6;
+  }
+</style>
+
+<button class="Amazon-Button">Add to Cart</button>
+
+
+<p>3c. Github</p>
+
+<style>
+  .Github-Button {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    font-weight: bold;
+    height: 32px;
+    width: 90px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: box-shadow var(--transition-time), var(--transition-time);
+  }
+
+  .Github-Button:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .Github-Button:active{
+    opacity: 0.8;
+  }
+</style>
+
+<button class="Github-Button">Sign up</button>
+
+
+<p>3d. Bootstrap</p>
+
+<style>
+  .Bootstrap-Button-Start {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color var(--transition-time);
+  }
+
+  .Bootstrap-Button-Start:hover {
+    background-color: rgb(113, 76, 168);
+  }
+
+  .Bootstrap-Button-Start:active {
+    background-color: rgb(99, 66, 148);
+  }
+
+  .Bootstrap-Button-Download {
+    background-color: white;
+    color: grey;
+    font-weight: bold;
+    height: 40px;
+    width: 116px;
+    border-width: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color var(--transition-time), color var(--transition-time), opacity var(--transition-time);
+  }
+
+  .Bootstrap-Button-Download:hover {
+    background-color: grey;
+    color: white;
+  }
+
+  .Bootstrap-Button-Download:active {
+    opacity: 0.8;
+    border: none;
+  }
+</style>
+
+<button class="Bootstrap-Button-Start">Get started</button>
+<button class="Bootstrap-Button-Download">Download</button>
+
+
+<p>3e. LinkedIn</p>
+
+<style>
+  .LinkedIn-Button-Apply {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    width: 220px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color var(--transition-time), opacity var(--transition-time);
+  }
+
+  .LinkedIn-Button-Apply:hover {
+    background-color: rgb(9, 89, 168);
+  }
+
+  .LinkedIn-Button-Apply:active {
+    opacity: 0.8;
+  }
+
+
+  .LinkedIn-Button-Save {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    font-weight: bold;
+    height: 40px;
+    width: 80px;
+    border-color: rgb(10, 102, 194);
+    border-radius: 20px;
+    border-width: 1px;
+    cursor: pointer;
+    transition: background-color var(--transition-time), border-width var(--transition-time), opacity var(--transition-time);
+  }
+
+  .LinkedIn-Button-Save:hover {
+    background-color: rgb(223,237,254);
+    border-width: 2px;
+  }
+
+  .LinkedIn-Button-Save:active {
+    opacity: 0.6;
+  }
+
+
+</style>
+
+<button class="LinkedIn-Button-Apply">Apply on company website</button>
+<button class="LinkedIn-Button-Save">Save</button>
+
+
+<p>2f. Continue exercise 1g. recreate the design using CSS now. (1:03:00)</p>
+
+<style>
+  .Amazon-Hyperlink:hover {
+    color: rgb(255, 164, 28);
+  }
+  
+  .Amazon-Button-Buy {
+    background-color: rgb(255, 164, 28);
+    color: black;
+    font-weight: lighter;
+    height: 30px;
+    width: 160px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color var(--transition-time), opacity var(--transition-time);
+  }
+
+  .Amazon-Button-Buy:hover {
+    background-color: rgb(230, 148, 25);
+  }
+
+  .Amazon-Button-Buy:active {
+    opacity: 0.6;
+  }
+
+  .Product-Title {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .Price-Stock {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+  }
+</style>
+
+<a href = "https://www.amazon.com/" class="Amazon-Hyperlink">Back to amazon</a>
+<p class="Product-Title">Nike Black Running Shoes</p>
+<p class="Price-Stock">$39 - in stock.</p>
+<p>Free delivery tomorrow.</p>
+<button class="Amazon-Button">Add to Cart</button>
+<button class="Amazon-Button-Buy">Buy Now</button>

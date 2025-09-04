@@ -1,0 +1,310 @@
+<p>Use CSS to recreate buttons from famous websites (hovers, transitions and shadows)</p>
+
+<style>
+  :root {
+    --transition-time: 0.2s;
+  }
+</style>
+
+<p>4a. Uber</p>
+<style>
+  .Uber-Button {
+    background-color: Black;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: opacity var(--transition-time);
+  }
+
+  .Uber-Button:hover{
+    opacity: 0.8;
+  }
+
+  .Uber-Button:active{
+    opacity: 0.6;
+  }
+</style>
+
+<button class="Uber-Button">Request now</button>
+
+
+<p>4b. Amazon</p>
+<style>
+  .Amazon-Button {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    font-weight: lighter;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 8;
+    padding-bottom: 8;
+
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color var(--transition-time), opacity var(--transition-time);
+  }
+
+  .Amazon-Button:hover{
+    background-color: rgb(238, 201, 18);
+  }
+
+  .Amazon-Button:active{
+    opacity: 0.6;
+  }
+</style>
+
+<button class="Amazon-Button">Add to Cart</button>
+
+
+<p>4c. Github</p>
+
+<style>
+  .Github-Button {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: box-shadow var(--transition-time), var(--transition-time);
+  }
+
+  .Github-Button:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .Github-Button:active{
+    opacity: 0.8;
+  }
+</style>
+
+<button class="Github-Button">Sign up</button>
+
+
+<p>4d. Bootstrap</p>
+
+<style>
+  .Bootstrap-Button-Start {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    font-weight: bold;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color var(--transition-time);
+  }
+
+  .Bootstrap-Button-Start:hover {
+    background-color: rgb(113, 76, 168);
+  }
+
+  .Bootstrap-Button-Start:active {
+    background-color: rgb(99, 66, 148);
+  }
+
+  .Bootstrap-Button-Download {
+    background-color: white;
+    color: grey;
+    font-weight: bold;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-width: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color var(--transition-time), color var(--transition-time), opacity var(--transition-time);
+  }
+
+  .Bootstrap-Button-Download:hover {
+    background-color: grey;
+    color: white;
+  }
+
+  .Bootstrap-Button-Download:active {
+    opacity: 0.8;
+    border: none;
+  }
+</style>
+
+<button class="Bootstrap-Button-Start">Get started</button>
+<button class="Bootstrap-Button-Download">Download</button>
+
+
+<p>4e. LinkedIn</p>
+
+<style>
+  .LinkedIn-Button-Apply {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 12;
+    padding-bottom: 12;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color var(--transition-time), opacity var(--transition-time);
+  }
+
+  .LinkedIn-Button-Apply:hover {
+    background-color: rgb(9, 89, 168);
+  }
+
+  .LinkedIn-Button-Apply:active {
+    opacity: 0.8;
+  }
+
+
+  .LinkedIn-Button-Save {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-color: rgb(10, 102, 194);
+    border-radius: 20px;
+    border-width: 1px;
+    cursor: pointer;
+    transition: background-color var(--transition-time), border-width var(--transition-time), opacity var(--transition-time);
+  }
+
+  .LinkedIn-Button-Save:hover {
+    background-color: rgb(223,237,254);
+    border-width: 2px;
+  }
+
+  .LinkedIn-Button-Save:active {
+    opacity: 0.6;
+  }
+
+
+</style>
+
+<button class="LinkedIn-Button-Apply">Apply on company website</button>
+<button class="LinkedIn-Button-Save">Save</button>
+
+
+<p>4h. Pagination</p>
+
+<style>
+  .Navigation-Buttons {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+
+  .Page-Refs {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+</style>
+
+<button class="Navigation-Buttons">Back</button>
+<a href="" class="Page-Refs">1</a>
+<a href="" class="Page-Refs">2</a>
+<a href="" class="Page-Refs">3</a>
+<a href="" class="Page-Refs">4</a>
+<a href="" class="Page-Refs">5</a>
+<button class="Navigation-Buttons">Next</button>
+
+
+<p>4i. Stretch</p>
+
+<style>
+  .stretch-button {
+    background-color: green;
+    color: white;
+    padding-top: 5;
+    padding-bottom: 5;
+    padding-left: 10;
+    padding-right: 10;
+    transition: padding-top 0.8s, padding-bottom 0.8s, padding-left 0.8s, padding-right 0.8s;
+  }
+
+  .stretch-button:hover{
+    padding-top: 20;
+    padding-bottom: 20;
+    padding-left: 40;
+    padding-right: 40;
+  }
+</style>
+
+<button class="stretch-button">Stretch</button>
+
+
+<p>4j. 3D Click</p>
+
+<style>
+  .click-3D {
+    background-color: green;
+    color: white;
+    padding-top: 5;
+    padding-bottom: 5;
+    padding-left: 10;
+    padding-right: 10;
+    box-shadow: 4px 4px 10px grey;
+    border: none;
+  }
+
+  .click-3D:active {
+    box-shadow: 0 0 0 0;
+    margin-top: 4px;
+    margin-left: 4px;
+  }
+</style>
+
+<button class="click-3D">Shadow</button>
+
+
+<p>4k. Marging and Padding Together</p>
+
+<style>
+  .increase-width {
+    background-color: green;
+    color: white;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+      transition: padding-left var(--transition-time), 
+      padding-right var(--transition-time), 
+      margin-left var(--transition-time), 
+      margin-right var(--transition-time);
+  }
+
+  .increase-width:hover {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+</style>
+
+<button class="increase-width">One</button>
+<button class="increase-width">Two</button>
+<button class="increase-width">Three</button>

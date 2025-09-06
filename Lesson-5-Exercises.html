@@ -1,0 +1,130 @@
+<p>Recreate the following text styles</p>
+
+<!--
+    As a reminder you can make style changes to all elements, like below.
+    Changes to more specific categories overwrite the others, as an example
+    below I apply it to all p but it is overwritten by more specific classes
+-->
+
+<style>
+  p{
+    margin-top: 0;
+    margin-bottom: 4px;
+  }
+</style>
+
+<p>5a.</p>
+<style>
+  .Tahoma-Text{
+    font-family: Tahoma;
+    font-size: 46px;
+    font-style: bold;
+}
+</style>
+
+<p class="Tahoma-Text">This is Tahoma font.</p>
+
+
+<p>5b.</p>
+
+<style>
+  .Deal-Title{
+    font-family: Arial;
+    font-size: 46px;
+    margin-bottom: 6px;
+  }
+
+  .Sale-End{
+    font-family: Arial;
+    color: red;
+    font-style: italic;
+    font-size: 26px;
+    margin-top: 0;
+  }
+</style>
+
+<p class="Deal-Title">Biggest Deals of the Year!</p>
+<p class="Sale-End">Sales end Tuesday</p>
+
+<p>5c.</p>
+
+<style>
+  .Course-Title{
+    font-family: Verdana;
+    font-size: 26px;
+  }
+
+  .Course-Subtitle{
+    font-family: Verdana;
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .Course-Body{
+    font-family: Verdana;
+    color: rgb(117, 117, 117);
+    width: 260px;
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .Course-Button{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    font-weight: bold;
+    height: 32px;
+    width: 90px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: box-shadow var(--transition-time), var(--transition-time);
+  }
+
+  .Course-Button:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .Course-Button:active{
+    opacity: 0.8;
+  }
+    
+</style>
+
+<p class="Course-Title">HTML CSS Course</p>
+<p class="Course-Subtitle">Beginner to Pro</p>
+<p class="Course-Body">In this course, we'll learn the skills you need to become a developer.</p>
+<button class="Course-Button">Get started</button>
+
+
+<p>5d.</p>
+
+<style>
+  .Apple-Title{
+    font-family: Arial;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .Apple-Subtitle{
+    font-family: Arial;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .Apple-Ref{
+    font-family: Arial;
+    font-size: 16px;
+    color: lightskyblue;
+    text-align: center;
+  }
+
+  .Apple-Ref:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+</style>
+
+<p class="Apple-Title">Shopping for your business?</p>
+<p class="Apple-Subtitle">See how Apple at Work can help.</p>
+<p href="" class="Apple-Ref">Learn more &#60;</p>

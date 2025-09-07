@@ -1,0 +1,85 @@
+.Red-Square{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+.Green-Circle{
+  background-color: greenyellow;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.Satisfaction{
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+  width: 300px;
+  height: 100px;
+}
+
+.Youtube-Music-Box{
+  background-color: rgb(34, 34, 34);
+  padding-top: 10px;
+  padding-bottom: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 300px;
+}
+
+.Youtube-Music-Title  {
+  color: white;
+  font-family: Arial;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+
+.Youtube-Music-Body {
+  color: white;
+  font-family: Arial;
+  font-size: small;
+  margin-bottom: 0px;
+}
+
+.Twitter-Box{
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+.Ex7g {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.Twitter-Input{
+    color: rgb(80, 80, 80);
+    border: none;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+.Tweet {
+    background-color: rgb(20, 161, 242);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
+}

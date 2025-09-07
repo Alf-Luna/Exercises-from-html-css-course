@@ -1,0 +1,16 @@
+p {
+    font-family: Montserrat;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.Model-3-Title {
+    font-weight: 600;
+    font-size: 46px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.Model-3-Body {
+    font-size: 24px;
+}
